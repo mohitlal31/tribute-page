@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.profile-name h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  opacity: 0.7;
+}
+
+.profile-name h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  opacity: 0.5;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-img {
+    width: 100vw;
+    height: auto;
+}
+
+.profile-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.write-up {
+  font-family: 'Lato', sans-serif;
+  background-color: black;
+  width: 100%;
+  color: #A9A9A9;
+  padding: 20px;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
+
+#wiki-link {
+  color: #99b3ff;
+}

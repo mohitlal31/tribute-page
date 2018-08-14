@@ -1,0 +1,27 @@
+@media only screen and (orientation: landscape) and (min-aspect-ratio: 3/2) {
+
+  .profile-img {
+    height: 100vh;
+    width: auto;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .write-up {
+    font-size: 20px;
+  }
+
+  .profile-name h1 {
+    font-size: 60px;
+  }
+
+  .profile-name h2 {
+    font-size: 30px;
+  }
+}
